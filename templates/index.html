@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Swin SACA Prototype</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>Swin Smart Adaptive Clinical Assistant (SACA)</h1>
+  <p>Prototype for remote Indigenous community triage support</p>
+</header>
+
+<section class="card grid-two">
+  <div>
+    <h2>Patient Input</h2>
+    <label>Input Language</label>
+    <select id="sourceLanguage">
+      <option value="english">English</option>
+      <option value="yolngu">Yolŋu Matha (prototype dictionary)</option>
+    </select>
+
+    <label>Age Group</label>
+    <select id="ageGroup">
+      <option value="child">Child</option>
+      <option value="adult" selected>Adult</option>
+      <option value="elder">Elder</option>
+    </select>
+
+    <label>Type or dictate symptoms</label>
+    <textarea id="symptomText" rows="6" placeholder="Example: body hot, cough, hard to breathe, or type in Yolŋu Matha"></textarea>
+
+    <div class="actions">
+      <button id="voiceBtn" type="button">🎤 Speak in English</button>
+      <button id="yolnguVoiceBtn" type="button">🎙️ Speak in Yolŋu Matha</button>
+      <button id="translateBtn" type="button">Translate</button>
+      <button id="triageBtn" type="button">Run Triage</button>
+    </div>
+    <small>Voice uses browser speech recognition. Use Chrome for best results.</small>
+  </div>
+
+  <div>
+    <h2>Staff View</h2>
+    <div class="output-block">
+      <h3>Translated English</h3>
+      <p id="englishOutput">—</p>
+    </div>
+    <div class="output-block">
+      <h3>Recognized Symptoms</h3>
+      <div id="symptomTags" class="tags"></div>
+    </div>
+    <div class="output-block">
+      <h3>Severity</h3>
+      <p id="severityOutput" class="severity">—</p>
+    </div>
+    <div class="output-block">
+      <h3>Precautions</h3>
+      <ul id="precautionsList"></ul>
+    </div>
+  </div>
+</section>
+
+</div>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

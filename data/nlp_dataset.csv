@@ -1,0 +1,25 @@
+id,timestamp,symptom_text,translated_text,symptoms,days,severity_score,medication_taken,other_body_part,age,gender,body_location,target
+1,2026-04-23T16:41:48,cough,cough,cough,,3,none,,,unknown,,mild
+2,2026-04-23T16:42:12,wirrika,feeling weak,weakness,,3,none,,,unknown,,mild
+3,2026-04-23T16:43:17,dhu-wuku,cannot breathe / breathlessness,breathlessness,,8,none,,,unknown,,mild
+4,2026-04-23T16:52:06,cough,cough,cough,,3,none,,,unknown,,mild
+5,2026-04-23T17:17:14,"Ŋarra yaka manymak nhina, ŋarra gäna marrtji bäyŋu, guku-dhukarr ŋarra, ŋarra dhärrany bäyŋu ŋatha dhäkay","ŋarra yaka manymak nhina, ŋarra gäna marrtji bäyŋu, chest pain ŋarra, ŋarra dhärrany bäyŋu ŋatha dhäkay",chest pain,,8,none,,,male,chest,mild
+6,2026-04-23T17:17:16,"Ŋarra yaka manymak nhina, ŋarra gäna marrtji bäyŋu, guku-dhukarr ŋarra, ŋarra dhärrany bäyŋu ŋatha dhäkay","ŋarra yaka manymak nhina, ŋarra gäna marrtji bäyŋu, chest pain ŋarra, ŋarra dhärrany bäyŋu ŋatha dhäkay",chest pain,,8,none,,,male,chest,mild
+7,2026-04-30T13:34:39,hard to breath and i am having cough,hard to breath and i am having cough,cough,,3,none,,,unknown,,moderate
+8,2026-04-30T13:35:15,i cannot feel my tongue and having a chest pain,i cannot feel my tongue and having a chest pain,chest pain,,8,none,,,unknown,chest,severe
+9,2026-04-30T13:49:17,i am having blood vomiting,i am having blood vomiting,vomiting,,5,none,,,unknown,,moderate
+10,2026-04-30T13:49:21,i am having blood vomiting,i am having blood vomiting,vomiting,,5,none,,,unknown,,moderate
+11,2026-04-30T14:02:01,i am not feeling okay from past 2 days,i am not feeling okay from past 2 days,unwell,2,3,none,,,unknown,,mild
+12,2026-04-30T14:02:14,i am having cold,i am having cold,cold,,3,none,,,unknown,,mild
+13,2026-04-30T14:02:30,cold,cold,cold,,3,none,,,unknown,,mild
+14,2026-04-30T14:02:51,hard to breathe,hard to breathe,breathlessness,,8,none,,,unknown,,severe
+15,2026-04-30T14:05:29,i am not okay,i am not okay,unwell,,3,none,,,unknown,,mild
+16,2026-04-30T14:05:38,cold,cold,cold,,3,none,,,unknown,,mild
+17,2026-04-30T14:08:02,i am not feeling okay from past 2 days,i am not feeling okay from past 2 days,unwell,2,3,none,,,unknown,,mild
+18,2026-04-30T14:11:25,i am not feeling okay from past 2 days,i am not feeling okay from past 2 days,unwell,2,3,none,,,unknown,,mild
+19,2026-04-30T14:13:33,i am not feeling okay from past 2 days,i am not feeling okay from past 2 days,unwell,2,3,none,,,unknown,,mild
+20,2026-04-30T14:19:46,i am not feeling okay from past 2 days,i am not feeling okay from past 2 days,unwell,2,3,none,,,unknown,,mild
+21,2026-04-30T14:23:41,i am having cough from 2 days,i am having cough from 2 days,cough,2,3,none,,,unknown,,mild
+22,2026-04-30T14:54:29,i am having fever from 2 days,i am having fever from 2 days,fever,2,5,none,,,unknown,,moderate
+23,2026-04-30T14:58:03,wirrika,feeling weak,weakness,,3,none,,,unknown,,mild
+24,2026-04-30T15:00:01,guku-guku,cough coughing,cough,,3,none,,,unknown,,mild
