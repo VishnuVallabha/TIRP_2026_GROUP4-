@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Swin SACA Web Prototype
 
 ## Run in VS Code
@@ -35,3 +36,7 @@
 - The app automatically compares **Random Forest** and **XGBoost** and chooses the better one based on weighted F1 score.
 - Voice input depends on browser speech recognition support.
 - For a stronger future version, you can replace browser speech recognition with **Vosk** or Android speech APIs and expand the community-approved translation dictionary.
+=======
+# TIRP_2026_GROUP4-
+SACA for severity classification using Machine Learning and NLP techniques.
+>>>>>>> 9e5535e51a3e3b25b72939d48aafa78d3bc1ca33
