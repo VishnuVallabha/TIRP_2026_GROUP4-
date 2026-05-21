@@ -23,3 +23,9 @@ id,timestamp,symptom_text,translated_text,symptoms,days,severity_score,medicatio
 22,2026-04-30T14:54:29,i am having fever from 2 days,i am having fever from 2 days,fever,2,5,none,,,unknown,,moderate
 23,2026-04-30T14:58:03,wirrika,feeling weak,weakness,,3,none,,,unknown,,mild
 24,2026-04-30T15:00:01,guku-guku,cough coughing,cough,,3,none,,,unknown,,mild
+25,2026-04-30T16:53:13,i am not feeling okay from 2 days,i am not feeling okay from 2 days,unwell,2,3,none,,,unknown,,mild
+26,2026-04-30T16:55:05,i am not feeling okay from 2 days,i am not feeling okay from 2 days,unwell,2,3,none,,,unknown,,mild
+27,2026-04-30T16:55:06,i am not feeling okay from 2 days,i am not feeling okay from 2 days,unwell,2,3,none,,,unknown,,mild
+28,2026-05-07T16:09:11,i am not feeling well,i am not feeling well,unwell,,3,none,,,unknown,,mild
+29,2026-05-21T11:29:10,i have stomach pain and blood vomit,i have stomach pain and blood vomit,stomach pain,,3,none,,,unknown,stomach,mild
+30,2026-05-21T11:38:59,i am not feeling well from past three days,i am not feeling well from past three days,unwell,3,5,none,,,unknown,,moderate

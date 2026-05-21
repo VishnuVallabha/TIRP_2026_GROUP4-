@@ -5,6 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Swin SACA Prototype</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+<style>
+  .lang-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:10px 0}
+  .lang-box{background:#f8f9ff;border:1px solid #dde3f5;border-radius:8px;padding:12px}
+  .lang-box h4{margin:0 0 6px 0;font-size:0.85em;color:#3a5ba0;text-transform:uppercase;letter-spacing:0.05em}
+  .lang-box p{margin:0 0 8px 0;font-size:1.05em;min-height:28px;color:#222}
+  .speak-btn{background:#3a5ba0;color:white;border:none;padding:12px 24px;border-radius:8px;font-size:1em;cursor:pointer;width:100%;margin-bottom:8px}
+  .speak-btn:disabled{background:#888}
+  .read-btn{background:#27ae60;color:white;border:none;padding:6px 14px;border-radius:6px;font-size:0.85em;cursor:pointer}
+  .read-btn:hover{background:#219a52}
+  .tag{display:inline-block;background:#e8eeff;color:#3a5ba0;border-radius:4px;padding:2px 8px;margin:2px;font-size:0.9em}
+  .severity{font-size:1.4em;font-weight:bold}
+  .severity.severe{color:#c0392b}
+  .severity.moderate{color:#e67e22}
+  .severity.mild{color:#27ae60}
+  .action-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+</style>
 </head>
 <body>
 <div class="container">
@@ -16,12 +32,6 @@
 <section class="card grid-two">
   <div>
     <h2>Patient Input</h2>
-    <label>Input Language</label>
-    <select id="sourceLanguage">
-      <option value="english">English</option>
-      <option value="yolngu">Yolŋu Matha (prototype dictionary)</option>
-    </select>
-
     <label>Age Group</label>
     <select id="ageGroup">
       <option value="child">Child</option>
@@ -29,23 +39,48 @@
       <option value="elder">Elder</option>
     </select>
 
-    <label>Type or dictate symptoms</label>
-    <textarea id="symptomText" rows="6" placeholder="Example: body hot, cough, hard to breathe, or type in Yolŋu Matha"></textarea>
+    <label style="margin-top:12px">Type symptoms (English or Yolŋu Matha)</label>
+    <textarea id="symptomText" rows="4"
+      placeholder="Type in English or Yolŋu Matha&#10;e.g. butu-dhukarr ga guku-guku&#10;or: i have stomach pain and cough"></textarea>
 
-    <div class="actions">
-      <button id="voiceBtn" type="button">🎤 Speak in English</button>
-      <button id="yolnguVoiceBtn" type="button">🎙️ Speak in Yolŋu Matha</button>
+    <div class="lang-grid">
+      <div class="lang-box">
+        <h4>🗣 Yolŋu Matha</h4>
+        <p id="yolnguDisplay">—</p>
+        <button class="read-btn" onclick="speakText('yolngu')">🔊 Read Yolŋu Matha</button>
+      </div>
+      <div class="lang-box">
+        <h4>🇦🇺 English</h4>
+        <p id="englishDisplay">—</p>
+        <button class="read-btn" onclick="speakText('english')">🔊 Read English</button>
+      </div>
+    </div>
+
+    <button class="speak-btn" id="speakBtn" type="button">🎤 Speak Your Symptoms</button>
+
+    <div class="action-grid">
       <button id="translateBtn" type="button">Translate</button>
       <button id="triageBtn" type="button">Run Triage</button>
     </div>
-    <small>Voice uses browser speech recognition. Use Chrome for best results.</small>
+    <small style="display:block;margin-top:8px">Speak or type in English or Yolŋu Matha — both appear automatically. Use Chrome.</small>
   </div>
 
   <div>
     <h2>Staff View</h2>
     <div class="output-block">
-      <h3>Translated English</h3>
-      <p id="englishOutput">—</p>
+      <h3>Patient Said</h3>
+      <div class="lang-grid">
+        <div class="lang-box">
+          <h4>🗣 Yolŋu Matha</h4>
+          <p id="staffYolngu">—</p>
+          <button class="read-btn" onclick="speakText('yolngu')">🔊 Read</button>
+        </div>
+        <div class="lang-box">
+          <h4>🇦🇺 English</h4>
+          <p id="englishOutput">—</p>
+          <button class="read-btn" onclick="speakText('english')">🔊 Read</button>
+        </div>
+      </div>
     </div>
     <div class="output-block">
       <h3>Recognized Symptoms</h3>
@@ -61,7 +96,6 @@
     </div>
   </div>
 </section>
-
 </div>
 <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
