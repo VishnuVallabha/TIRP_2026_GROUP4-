@@ -29,3 +29,4 @@ id,timestamp,symptom_text,translated_text,symptoms,days,severity_score,medicatio
 28,2026-05-07T16:09:11,i am not feeling well,i am not feeling well,unwell,,3,none,,,unknown,,mild
 29,2026-05-21T11:29:10,i have stomach pain and blood vomit,i have stomach pain and blood vomit,stomach pain,,3,none,,,unknown,stomach,mild
 30,2026-05-21T11:38:59,i am not feeling well from past three days,i am not feeling well from past three days,unwell,3,5,none,,,unknown,,moderate
+31,2026-05-21T16:56:21,i am not feeling okay past two days,i am not feeling okay past two days,unwell,2,3,none,,35,unknown,,mild

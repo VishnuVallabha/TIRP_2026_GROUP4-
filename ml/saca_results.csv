@@ -1,0 +1,4 @@
+Model,Accuracy,Precision_Weighted,Recall_Weighted,F1_Weighted,Severe_Recall
+A_LogisticRegression,0.9,0.925,0.9,0.8971,0.6667
+B_RandomForest,0.9,0.925,0.9,0.8971,0.6667
+AB_LR+RF,0.9,0.925,0.9,0.8971,0.6667

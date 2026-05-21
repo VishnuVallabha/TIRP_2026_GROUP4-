@@ -1,0 +1,51 @@
+symptom_text,age,heart_rate,temperature,breathing_rate,severity
+mild headache and dizziness,24,78,36.7,16,mild
+nausea with mild stomach pain,31,80,36.8,17,mild
+sore throat and cough,45,82,37.0,18,mild
+chest tightness and high fever,60,110,39.2,26,severe
+shortness of breath when walking,54,105,38.6,24,severe
+confusion and rapid pulse,68,120,39.5,28,severe
+moderate abdominal cramps and fever,38,95,38.3,22,moderate
+persistent cough with fatigue,50,98,37.8,20,moderate
+swollen ankle with mild fever,29,88,37.5,18,moderate
+minor cut with light bleeding,22,72,36.5,15,mild
+high temperature and sweating,47,102,38.9,25,severe
+difficult swallowing and throat pain,33,84,37.2,18,moderate
+runny nose and sneezing,19,76,36.6,15,mild
+mild back pain,42,79,36.8,16,mild
+fever and body aches,35,90,38.2,20,moderate
+severe chest pain and sweating,58,118,39.0,27,severe
+headache with vomiting,40,92,37.9,19,moderate
+breathing difficulty at rest,65,115,39.3,29,severe
+leg cramps and fatigue,27,85,37.1,17,mild
+dizziness and fainting,55,108,38.5,23,severe
+ear pain and mild fever,16,80,37.4,16,mild
+stomach pain and diarrhea,32,88,37.6,19,moderate
+rash and itching,25,78,36.9,16,mild
+severe headache and confusion,70,122,39.8,30,severe
+cough and mild chest pain,48,94,37.7,20,moderate
+ankle swelling and pain,36,83,37.0,17,mild
+high fever and chills,52,105,39.1,25,severe
+nausea and loss of appetite,28,81,37.2,17,mild
+joint pain and stiffness,61,90,37.5,18,moderate
+rapid breathing and chest pain,57,116,39.4,28,severe
+mild sore throat,20,75,36.5,15,mild
+abdominal pain and vomiting,44,96,38.4,22,moderate
+eye redness and pain,23,77,36.7,15,mild
+unconsciousness and low pulse,72,130,40.0,32,severe
+back pain radiating to leg,53,88,37.3,18,moderate
+skin rash with high fever,39,100,38.8,23,severe
+mild dizziness,26,79,36.8,16,mild
+coughing blood,64,112,38.7,26,severe
+neck stiffness and fever,46,98,38.6,22,moderate
+headache and light sensitivity,34,86,37.4,18,moderate
+cold and runny nose,18,74,36.5,15,mild
+bruised knee mild swelling,28,77,36.6,15,mild
+persistent fever three days,43,99,38.7,21,moderate
+unresponsive shallow breathing,75,135,40.2,34,severe
+chest pain radiating to arm,62,119,39.1,27,severe
+mild nausea morning,30,79,36.7,16,mild
+severe allergic reaction swelling,37,108,38.4,25,severe
+fatigue and pale skin,49,91,37.6,19,moderate
+dehydration and dry mouth,33,86,37.3,18,moderate
+sharp stabbing chest pain,59,117,39.2,28,severe
