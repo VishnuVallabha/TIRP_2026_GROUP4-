@@ -1,0 +1,19 @@
+SACA — How to Run
+=================
+
+1. Open PowerShell or Command Prompt
+2. Navigate to this folder:
+   cd C:\Users\indra\Downloads\SACA_fixed_with_NLP\saca_ml_final
+
+3. Run:
+   python main.py
+
+IMPORTANT: Always run from this folder.
+If Yolnu Matha translations are not showing:
+   - Make sure you extracted ALL files from the new zip
+   - Delete the __pycache__ folder if it exists
+   - Run: python main.py
+
+Test Yolnu Matha:
+   On the Language screen, click "YOLNGU MATHA"
+   Then all questions will show Yolnu Matha text below the English

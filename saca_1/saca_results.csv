@@ -1,0 +1,4 @@
+Model,Accuracy,Precision_Weighted,Recall_Weighted,F1_Weighted,Severe_Recall
+C_XGBoost,1.0,1.0,1.0,1.0,1.0
+BC_RF+XGB,1.0,1.0,1.0,1.0,1.0
+B_RandomForest,0.9722,0.975,0.9722,0.9727,0.963

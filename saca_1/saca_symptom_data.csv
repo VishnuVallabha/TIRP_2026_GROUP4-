@@ -1,0 +1,358 @@
+symptom_text,age,heart_rate,temperature,breathing_rate,severity
+mild headache and dizziness,24,78,36.7,16,mild
+nausea with mild stomach pain,31,80,36.8,17,mild
+sore throat and cough,45,82,37.0,18,mild
+chest tightness and high fever,60,110,39.2,26,severe
+shortness of breath when walking,54,105,38.6,24,severe
+confusion and rapid pulse,68,120,39.5,28,severe
+moderate abdominal cramps and fever,38,95,38.3,22,moderate
+persistent cough with fatigue,50,98,37.8,20,moderate
+swollen ankle with mild fever,29,88,37.5,18,moderate
+minor cut with light bleeding,22,72,36.5,15,mild
+high temperature and sweating,47,102,38.9,25,severe
+difficult swallowing and throat pain,33,84,37.2,18,moderate
+runny nose and sneezing,19,76,36.6,15,mild
+mild back pain,42,79,36.8,16,mild
+fever and body aches,35,90,38.2,20,moderate
+severe chest pain and sweating,58,118,39.0,27,severe
+headache with vomiting,40,92,37.9,19,moderate
+breathing difficulty at rest,65,115,39.3,29,severe
+leg cramps and fatigue,27,85,37.1,17,mild
+dizziness and fainting,55,108,38.5,23,severe
+ear pain and mild fever,16,80,37.4,16,mild
+stomach pain and diarrhea,32,88,37.6,19,moderate
+rash and itching,25,78,36.9,16,mild
+severe headache and confusion,70,122,39.8,30,severe
+cough and mild chest pain,48,94,37.7,20,moderate
+ankle swelling and pain,36,83,37.0,17,mild
+high fever and chills,52,105,39.1,25,severe
+nausea and loss of appetite,28,81,37.2,17,mild
+joint pain and stiffness,61,90,37.5,18,moderate
+rapid breathing and chest pain,57,116,39.4,28,severe
+mild sore throat,20,75,36.5,15,mild
+abdominal pain and vomiting,44,96,38.4,22,moderate
+eye redness and pain,23,77,36.7,15,mild
+unconsciousness and low pulse,72,130,40.0,32,severe
+back pain radiating to leg,53,88,37.3,18,moderate
+skin rash with high fever,39,100,38.8,23,severe
+mild dizziness,26,79,36.8,16,mild
+coughing blood,64,112,38.7,26,severe
+neck stiffness and fever,46,98,38.6,22,moderate
+headache and light sensitivity,34,86,37.4,18,moderate
+cold and runny nose,18,74,36.5,15,mild
+bruised knee mild swelling,28,77,36.6,15,mild
+persistent fever three days,43,99,38.7,21,moderate
+unresponsive shallow breathing,75,135,40.2,34,severe
+chest pain radiating to arm,62,119,39.1,27,severe
+mild nausea morning,30,79,36.7,16,mild
+severe allergic reaction swelling,37,108,38.4,25,severe
+fatigue and pale skin,49,91,37.6,19,moderate
+dehydration and dry mouth,33,86,37.3,18,moderate
+sharp stabbing chest pain,59,117,39.2,28,severe
+mild throat irritation,21,74,36.6,15,mild
+slight headache after waking,19,76,36.7,15,mild
+minor muscle soreness,30,78,36.8,16,mild
+tiredness after work,27,77,36.9,15,mild
+mild nasal congestion,23,75,36.6,15,mild
+small skin bruise,18,73,36.5,14,mild
+very mild stomach upset,32,79,37.0,16,mild
+dry cough no fever,25,77,36.7,16,mild
+mild eye strain,22,76,36.6,15,mild
+minor wrist pain after exercise,29,78,36.8,16,mild
+light sensitivity without headache,24,75,36.7,15,mild
+intermittent mild back ache,35,80,36.9,16,mild
+mild fatigue after long day,40,81,36.8,16,mild
+sneezing and watery eyes,17,74,36.5,15,mild
+small insect bite swelling,26,76,36.6,15,mild
+mild diarrhea one episode,28,80,37.0,16,mild
+mild knee stiffness morning,38,79,36.8,16,mild
+slight tooth pain,22,75,36.7,15,mild
+low energy and poor sleep,31,78,36.8,16,mild
+mild heartburn after eating,36,80,37.0,16,mild
+minor blister on foot,20,74,36.5,15,mild
+mild skin dryness and itching,27,77,36.7,16,mild
+infrequent mild headache,33,79,36.8,15,mild
+very mild cough with clear mucus,24,76,36.6,16,mild
+mild bloating after meal,34,80,37.0,16,mild
+slight dizziness standing up,29,78,36.8,16,mild
+mild constipation,37,79,36.9,16,mild
+mild anxiety and restlessness,25,82,36.8,16,mild
+minor sunburn,21,75,36.6,15,mild
+mild earache no fever,19,74,36.5,15,mild
+general tiredness no other symptoms,43,80,36.9,16,mild
+moderate fever ongoing two days,41,96,38.5,21,moderate
+persistent nausea and vomiting,38,93,38.2,20,moderate
+ongoing chest discomfort,50,95,37.8,20,moderate
+moderate difficulty breathing exertion,46,97,38.0,21,moderate
+swollen lymph nodes with fever,35,94,38.4,20,moderate
+urinary pain and frequency,40,89,37.8,19,moderate
+chronic cough with yellow mucus,55,95,38.1,21,moderate
+moderate abdominal pain right side,44,93,38.3,21,moderate
+prolonged headache three days,37,91,37.7,19,moderate
+skin infection with mild discharge,32,90,38.0,19,moderate
+joint swelling with moderate pain,60,92,37.6,19,moderate
+recurring chest pressure,52,96,38.2,21,moderate
+moderate dehydration vomiting,33,95,38.1,20,moderate
+two day fever with chills,48,97,38.6,22,moderate
+moderate rash spreading,29,88,37.5,18,moderate
+diarrhea with blood trace,45,94,38.3,21,moderate
+moderate difficulty swallowing,39,90,37.9,19,moderate
+persistent ear pain discharge,27,87,37.6,18,moderate
+worsening back pain affecting walk,56,91,37.4,19,moderate
+elevated blood pressure symptoms,58,100,37.8,20,moderate
+moderate breathlessness stairs,53,96,38.0,21,moderate
+unexplained weight loss fatigue,62,93,37.7,20,moderate
+moderate migraine with nausea,36,93,37.8,20,moderate
+high fever with body aches,43,99,38.7,22,moderate
+moderate ankle pain with swelling,31,88,37.5,18,moderate
+recurring stomach pain two days,40,92,38.2,20,moderate
+mild confusion with fever,67,97,38.5,21,moderate
+wrist pain swelling after fall,34,87,37.3,18,moderate
+ongoing fatigue muscle weakness,51,91,37.6,19,moderate
+moderate rash itching spreading,26,88,37.5,18,moderate
+nausea vomiting two days,42,94,38.3,21,moderate
+knee pain swelling unable to walk,48,90,37.4,19,moderate
+throat infection white patches,30,91,37.9,19,moderate
+blurred vision headache,44,93,37.8,20,moderate
+moderate chest pain on breathing,57,98,38.0,21,moderate
+raised temperature productive cough,49,97,38.4,21,moderate
+dizziness recurring several times,55,94,37.9,20,moderate
+moderate abdominal cramping diarrhea,36,93,38.2,20,moderate
+low blood sugar symptoms,29,90,37.3,18,moderate
+side pain during breathing,47,95,38.0,21,moderate
+heart palpitations mild,54,100,37.8,20,moderate
+pain radiating shoulder and neck,61,92,37.5,19,moderate
+moderate difficulty breathing at night,52,97,38.1,21,moderate
+persistent productive cough with fever,50,98,38.5,22,moderate
+severe chest pain crushing,63,122,39.3,29,severe
+sudden collapse unresponsive,74,130,40.1,33,severe
+extreme breathing difficulty rest,67,118,39.6,31,severe
+severe stroke symptoms face drooping,70,125,39.8,30,severe
+profuse bleeding uncontrolled,55,128,38.7,28,severe
+anaphylaxis severe allergic reaction,32,120,38.5,30,severe
+seizure convulsions,48,130,39.5,34,severe
+severe burns covering large area,35,115,38.2,27,severe
+loss of consciousness repeated,66,125,40.0,32,severe
+heart attack symptoms arm pain,60,124,39.0,29,severe
+severe head injury trauma,42,118,39.2,28,severe
+meningitis neck stiffness high fever,25,122,40.2,31,severe
+overdose medications unconscious,29,130,38.8,33,severe
+severe dehydration shock symptoms,72,126,39.7,30,severe
+major trauma multiple injuries,38,120,38.5,29,severe
+severe asthma unresponsive inhaler,44,122,39.1,32,severe
+pulmonary embolism breathing severe,56,120,38.9,31,severe
+diabetic emergency unresponsive,65,128,39.6,32,severe
+septic shock high fever confusion,71,130,40.4,35,severe
+internal bleeding signs,53,125,39.0,30,severe
+stroke vision loss arm weakness,68,124,39.5,31,severe
+severe abdominal pain rigid abdomen,47,118,39.4,28,severe
+very high fever 40 degrees confusion,69,126,40.3,32,severe
+extreme chest tightness sweating,57,121,39.2,29,severe
+severe vomiting blood,50,123,39.0,30,severe
+rapidly spreading rash fever,36,116,39.3,28,severe
+acute kidney failure symptoms,73,127,39.8,31,severe
+severe mental confusion disorientation,80,124,40.0,31,severe
+near drowning breathing difficulty,22,115,38.5,30,severe
+major bone fracture shock,31,120,38.3,29,severe
+severe allergic swelling airway,28,122,38.6,32,severe
+acute appendicitis severe pain,33,116,39.5,28,severe
+hypertensive crisis severe headache,62,125,39.2,30,severe
+severe asthma wheezing cyanosis,40,118,39.0,31,severe
+severe infection spreading red streaks,45,120,39.7,29,severe
+cardiac arrest pulse absent,67,0,37.5,0,severe
+severe trauma road accident,30,122,38.4,30,severe
+extreme dizziness vomiting fever,59,119,39.6,29,severe
+unconscious breathing irregular,76,128,40.1,33,severe
+severe burns face and airway,26,115,38.5,28,severe
+acute respiratory failure,64,120,39.4,32,severe
+blood pressure extremely low dizzy,55,118,39.1,29,severe
+severe pancreatitis intense pain,48,121,39.3,30,severe
+severe sepsis fever rapid heart,72,130,40.5,35,severe
+sudden severe headache worst ever,43,116,39.0,28,severe
+acute liver failure jaundice confusion,61,122,39.6,31,severe
+severe electric shock injury,34,120,38.7,29,severe
+multiple rib fractures breathing pain,51,118,38.9,30,severe
+severe pneumonia confusion high fever,69,124,40.0,32,severe
+drug overdose altered consciousness,27,125,38.5,31,severe
+torn aorta severe back pain,65,128,39.5,32,severe
+extremity crush injury severe,37,117,38.6,29,severe
+hyperglycemic crisis vomiting confusion,70,126,39.8,31,severe
+severe hypoglycemia unresponsive,66,0,36.0,8,severe
+sudden vision loss one eye,52,116,38.8,27,severe
+acute pulmonary edema pink froth,63,122,39.1,32,severe
+severe kidney stone excruciating pain,41,120,38.9,28,severe
+fever and mild sore throat two days,28,88,38.1,19,moderate
+mild cough improving,22,76,36.9,16,mild
+mild body aches cold,25,78,37.0,16,mild
+slight fever one day,20,82,37.8,17,mild
+minor stomach cramps,19,78,37.0,16,mild
+mild rash on arm,24,76,36.8,15,mild
+low grade temperature,30,80,37.3,16,mild
+mild insomnia and fatigue,35,79,36.9,16,mild
+mild eye discharge,21,75,36.7,15,mild
+mild sinus pressure,26,77,36.8,16,mild
+mild vertigo brief,31,80,37.0,16,mild
+minor throat clearing,23,75,36.6,15,mild
+very mild chest flutter,28,81,36.9,16,mild
+mild wrist ache,33,78,36.8,16,mild
+post exercise muscle pain,27,80,36.9,16,mild
+mild tension headache,29,79,36.8,16,mild
+very mild palpitations,36,83,37.0,16,mild
+mild stomach wind,24,77,36.8,16,mild
+mild skin peeling after sunburn,22,74,36.6,15,mild
+minor ankle discomfort,38,79,36.9,16,mild
+mild intermittent cough,32,78,36.8,16,mild
+persistent two week cough,46,95,38.1,21,moderate
+ear infection pus discharge,24,91,38.3,20,moderate
+urinary tract infection pain,38,90,38.0,19,moderate
+recurring moderate headaches,43,92,37.8,19,moderate
+moderate fever returning,35,96,38.5,21,moderate
+prolonged diarrhea with cramps,41,93,38.2,20,moderate
+swollen painful joints,57,91,37.7,19,moderate
+moderate back pain unable rest,49,93,37.9,20,moderate
+rash with fever spreading,33,94,38.4,21,moderate
+eye infection swollen painful,27,88,37.6,18,moderate
+moderate abdominal pain recurring,52,94,38.1,20,moderate
+tooth abscess swelling face,36,92,38.2,20,moderate
+moderate headache photophobia,40,93,37.9,20,moderate
+upper respiratory infection worsening,45,95,38.3,21,moderate
+chest infection productive cough,54,97,38.5,22,moderate
+moderate dizziness affecting balance,61,94,38.0,20,moderate
+persistent vomiting unable keep fluids,38,96,38.4,21,moderate
+wound infection increasing redness,30,91,37.9,19,moderate
+moderate flank pain,44,90,37.8,19,moderate
+high blood pressure headache,65,100,37.9,20,moderate
+moderate pelvic pain,35,91,37.7,19,moderate
+facial pain sinus pressure,39,90,37.8,19,moderate
+shoulder pain significant restriction,51,90,37.5,19,moderate
+large insect sting allergic response,29,93,38.0,20,moderate
+broken toe pain swelling,22,87,37.2,17,moderate
+wrist fracture pain unable move,32,89,37.4,18,moderate
+knee ligament injury swelling,27,90,37.5,19,moderate
+corneal abrasion eye pain,24,88,36.9,17,moderate
+appendix pain growing,28,95,38.6,22,moderate
+gallbladder pain after eating,48,93,38.1,20,moderate
+kidney stone pain moderate,41,94,38.2,21,moderate
+moderately high fever children,8,97,38.8,22,moderate
+moderate asthma wheezing,35,96,38.1,21,moderate
+muscle weakness general,55,92,37.6,19,moderate
+chest tightness with anxiety,33,98,37.8,20,moderate
+difficulty breathing exercise only,46,95,38.0,21,moderate
+moderate allergic reaction hives,30,92,38.0,20,moderate
+low back pain radiating hip,50,91,37.5,19,moderate
+moderate migraine throbbing,38,93,37.8,19,moderate
+recurring abdominal pain meals,44,91,37.7,19,moderate
+calf pain swelling possible clot,47,94,37.9,20,moderate
+bloody stool moderate amount,53,95,38.0,21,moderate
+frequent urination pain burning,36,89,37.8,18,moderate
+moderate ear pain vertigo,41,91,37.7,19,moderate
+skin abscess growing painful,34,92,38.1,20,moderate
+moderate shortness breath at night,60,97,38.2,21,moderate
+persistent hoarse voice two weeks,45,88,37.5,18,moderate
+moderate swelling lymph nodes neck,37,90,37.8,19,moderate
+recurring chest tightness mild,52,93,37.9,20,moderate
+gout flare severe joint pain,61,91,37.6,19,moderate
+moderate muscle spasm back,43,90,37.5,19,moderate
+hernia pain worsening,55,93,37.8,20,moderate
+severe anaphylaxis throat closing,34,125,38.7,33,severe
+uncontrolled seizure ongoing,27,135,39.6,35,severe
+massive stroke facial droop arm weak,71,126,39.8,31,severe
+severe heart attack crushing chest,62,124,39.2,30,severe
+major head trauma unconscious,39,120,38.9,29,severe
+severe respiratory arrest,58,118,39.5,32,severe
+extreme blood loss haemorrhage,44,130,38.3,31,severe
+severe chemical burn eyes face,30,116,38.6,28,severe
+life threatening asthma attack,41,122,39.3,32,severe
+septic shock high fever collapse,68,128,40.4,34,severe
+severe spinal injury paralysis,35,115,38.1,27,severe
+acute abdomen peritonitis,52,121,39.5,30,severe
+eclampsia seizure pregnancy,29,124,39.7,32,severe
+severe concussion vomiting unresponsive,24,118,38.6,28,severe
+massive pulmonary embolism shock,56,125,39.2,32,severe
+ruptured spleen trauma,38,126,38.7,31,severe
+extreme hyperthermia heat stroke,48,128,41.0,33,severe
+severe diabetic ketoacidosis,55,122,39.4,31,severe
+tension pneumothorax breathing none,43,120,38.8,32,severe
+aortic dissection tearing back pain,67,128,39.6,32,severe
+meningococcal rash fever stiff neck,22,126,40.2,33,severe
+severe drug toxicity overdose,31,132,39.1,34,severe
+massive myocardial infarction,70,125,39.0,30,severe
+acute respiratory distress,64,120,39.4,32,severe
+severe hypoglycemia coma,73,118,36.2,10,severe
+extreme tachycardia heart rate 180,46,130,38.5,29,severe
+necrotizing fasciitis spreading,42,124,40.0,30,severe
+severe gastrointestinal bleed,59,127,39.2,31,severe
+acute compartment syndrome pain,33,116,38.5,27,severe
+severe preeclampsia blood pressure,30,120,39.5,31,severe
+bilateral pneumonia severe,66,122,40.1,33,severe
+ruptured ectopic pregnancy pain,27,124,38.9,30,severe
+severe hyperkalaemia cardiac,72,118,39.3,29,severe
+acute liver failure encephalopathy,61,122,40.2,32,severe
+fulminant meningitis,25,130,40.8,35,severe
+polytrauma multiple organ,40,128,38.6,32,severe
+hypoxia oxygen saturation low,55,120,39.0,31,severe
+severe electrical burn cardiac,36,122,38.4,30,severe
+profound shock cold clammy skin,63,128,39.7,32,severe
+explosive decompression lung,29,115,38.3,29,severe
+testicular torsion severe pain,19,118,38.6,28,severe
+sudden severe abdominal tearing,65,127,39.5,32,severe
+acute coronary syndrome,57,122,39.1,30,severe
+severe hypoxemia blue lips,60,119,39.2,32,severe
+acute epiglottitis airway threat,33,118,39.7,31,severe
+severe trauma pedestrian hit,25,124,38.9,31,severe
+malignant hypertension crisis,70,126,39.4,31,severe
+massive trauma explosion,37,128,38.7,32,severe
+unresponsive elderly fall,82,115,38.0,25,severe
+severe postpartum haemorrhage,28,130,38.6,33,severe
+cardiac tamponade severe,55,122,39.0,30,severe
+toxic shock syndrome fever,36,128,40.3,33,severe
+severe bite wound venomous snake,40,120,38.8,29,severe
+sudden infant unresponsive,1,130,39.5,40,severe
+severe hypotension dizzy fainting,67,118,38.5,28,severe
+acute angle closure glaucoma,51,116,38.2,27,severe
+threatened airway angioedema,44,122,39.0,31,severe
+extensive deep burns,31,116,38.4,28,severe
+drowning near submersion,15,118,37.8,32,severe
+traumatic amputation,28,125,38.5,30,severe
+crush syndrome rhabdomyolysis,45,122,39.1,29,severe
+acute psychosis danger self harm,23,120,38.3,28,severe
+mild tension headache resolved,26,77,36.9,15,mild
+very mild fatigue no pain,33,78,36.8,16,mild
+minor irritation throat clearing,21,75,36.6,15,mild
+light muscle ache after walking,30,79,36.9,16,mild
+mild stomach gas discomfort,28,78,37.0,16,mild
+slight congestion no fever,22,76,36.7,15,mild
+minor cut finger healed,18,73,36.5,14,mild
+mild cramp single episode,35,80,36.9,16,mild
+occasional mild heartburn,40,80,37.0,16,mild
+mild dental sensitivity,24,76,36.7,15,mild
+very mild shortness breath walking fast,29,81,36.9,16,mild
+minor scalp itch,20,74,36.5,15,mild
+mild fatigue poor diet,37,79,36.9,16,mild
+very mild anxiety occasional,32,81,37.0,16,mild
+minor nasal bleeding resolved,25,76,36.7,15,mild
+mild pimple inflammation,19,74,36.5,14,mild
+mild knee ache cycling,34,80,36.9,16,mild
+mild shoulder stiffness,41,80,37.0,16,mild
+slight taste change,27,77,36.8,15,mild
+mild occasional cough,23,75,36.6,15,mild
+recurring moderate fever four days,47,97,38.6,22,moderate
+moderate breathing effort upstairs,54,96,38.0,21,moderate
+two day abdominal pain radiating,41,94,38.3,21,moderate
+moderate joint pain walking,62,91,37.6,19,moderate
+ongoing moderate sore throat,35,92,38.1,20,moderate
+raised temperature coughing green,49,96,38.4,21,moderate
+moderate skin infection spreading,33,91,38.0,19,moderate
+moderate ear pain two days,28,89,37.7,18,moderate
+recurring vomiting mild dehydration,39,94,38.2,20,moderate
+moderate flank pain urination,44,91,37.9,19,moderate
+moderate chest discomfort exertion,58,97,38.0,21,moderate
+moderate swelling hands morning,55,90,37.6,19,moderate
+moderate headache three days,37,92,37.9,19,moderate
+moderate fever with sweating night,52,97,38.6,22,moderate
+persistent productive cough,46,95,38.2,21,moderate
+moderate pain after minor injury,30,88,37.5,18,moderate
+moderate confusion elderly,75,93,38.0,19,moderate
+moderate rash with mild fever,27,90,37.8,18,moderate
+moderate shortness breath,60,96,38.1,21,moderate
+moderate stomach pain cramping,38,92,38.1,20,moderate
