@@ -3,8 +3,10 @@ pandas
 scikit-learn
 nltk
 matplotlib
-seaborn
-torch
-transformers
-speechbrain
-librosa
+tkinter
+pillow
+pyttsx3
+speechrecognition
+pyaudio
+pickle5
+customtkinter
