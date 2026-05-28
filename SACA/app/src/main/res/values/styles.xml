@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Body Part buttons -->
+    <style name="BodyButton">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">78dp</item>
+
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+
+        <item name="android:padding">10dp</item>
+
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#001F3F</item>
+
+        <item name="android:backgroundTint">#FFFFFF</item>
+
+        <item name="android:gravity">center_vertical|start</item>
+
+        <item name="android:elevation">4dp</item>
+
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+</resources>

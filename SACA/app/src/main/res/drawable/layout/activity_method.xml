@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Back -->
+        <TextView
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:textColor="#4A6FA5"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Title — matches desktop "SYMPTOM CLASSIFICATION" -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SYMPTOM CLASSIFICATION"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#001F3F"
+            android:gravity="center"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:id="@+id/subtitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How would you like to identify your symptom?"
+            android:textSize="13sp"
+            android:textColor="#6C8DB5"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Card 01 — OCHRE/orange — Symptom Identification -->
+        <LinearLayout
+            android:id="@+id/symptomIdentification"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/english_card_bg"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <!-- Orange left strip (matches desktop coloured strip) -->
+            <View
+                android:layout_width="8dp"
+                android:layout_height="match_parent"
+                android:background="#FF6B35" />
+
+            <!-- Icon box -->
+            <LinearLayout
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/method_icon_orange"
+                android:gravity="center"
+                android:layout_marginStart="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🩺" android:textSize="30sp" android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- Text block -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="14dp"
+                android:layout_marginEnd="10dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/method1Title"
+                    android:text="01. SYMPTOM IDENTIFICATION"
+                    android:textStyle="bold" android:textSize="15sp" android:textColor="#001F3F"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/method1Sub1"
+                    android:text="Tap a body part, then choose your symptom"
+                    android:textSize="12sp" android:textColor="#FF6B35" android:layout_marginTop="2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/method1Sub2"
+                    android:text="Visual selection — best for all users"
+                    android:textSize="11sp" android:textColor="#6C8DB5"/>
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="→" android:textColor="#FF6B35" android:textSize="22sp"
+                android:layout_marginEnd="14dp"/>
+        </LinearLayout>
+
+        <!-- Card 02 — Blue — Speak -->
+        <LinearLayout
+            android:id="@+id/speakSymptom"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/blue_card_bg"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <View android:layout_width="8dp" android:layout_height="match_parent"
+                android:background="#1685D9" />
+
+            <LinearLayout android:layout_width="64dp" android:layout_height="64dp"
+                android:background="@drawable/method_icon_blue"
+                android:gravity="center" android:layout_marginStart="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🎤" android:textSize="30sp" android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:layout_marginStart="14dp" android:layout_marginEnd="10dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/method2Title"
+                    android:text="02. SPEAK YOUR SYMPTOM"
+                    android:textStyle="bold" android:textSize="15sp" android:textColor="#001F3F"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/method2Sub1"
+                    android:text="Say your symptom — NLP will identify it"
+                    android:textSize="12sp" android:textColor="#1685D9" android:layout_marginTop="2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/method2Sub2"
+                    android:text="Powered by NLP  ·  English &amp; Yolŋu Matha"
+                    android:textSize="11sp" android:textColor="#6C8DB5"/>
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="→" android:textColor="#1685D9" android:textSize="22sp"
+                android:layout_marginEnd="14dp"/>
+        </LinearLayout>
+
+        <!-- Card 03 — Red — Type -->
+        <LinearLayout
+            android:id="@+id/typeSymptom"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/red_card_bg"
+            android:gravity="center_vertical">
+
+            <View android:layout_width="8dp" android:layout_height="match_parent"
+                android:background="#F43F5E" />
+
+            <LinearLayout android:layout_width="64dp" android:layout_height="64dp"
+                android:background="@drawable/method_icon_red"
+                android:gravity="center" android:layout_marginStart="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="⌨️" android:textSize="30sp" android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:layout_marginStart="14dp" android:layout_marginEnd="10dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/method3Title"
+                    android:text="03. TYPE YOUR SYMPTOM"
+                    android:textStyle="bold" android:textSize="15sp" android:textColor="#001F3F"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/method3Sub1"
+                    android:text="Type your symptom — NLP will classify it"
+                    android:textSize="12sp" android:textColor="#F43F5E" android:layout_marginTop="2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/method3Sub2"
+                    android:text="Powered by keyword NLP  ·  English &amp; Yolŋu Matha"
+                    android:textSize="11sp" android:textColor="#6C8DB5"/>
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="→" android:textColor="#F43F5E" android:textSize="22sp"
+                android:layout_marginEnd="14dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

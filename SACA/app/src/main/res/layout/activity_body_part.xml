@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Back"
+        android:textColor="#4A6FA5"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/bodyPartTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WHERE DOES IT HURT?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#001F3F"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:id="@+id/bodyPartSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap the body part to begin"
+        android:textSize="12sp"
+        android:textColor="#6C8DB5"
+        android:layout_below="@id/bodyPartTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <View
+        android:id="@+id/topLine"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#1685D9"
+        android:layout_below="@id/bodyPartSubTitle"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="① Body Part    ② Symptoms    ③ How Bad    ④ Advice"
+        android:textColor="#6C8DB5"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:layout_below="@id/topLine"
+        android:layout_marginTop="10dp" />
+
+    <FrameLayout
+        android:id="@+id/bodyFrame"
+        android:layout_width="155dp"
+        android:layout_height="330dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/progressText"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/humanBodyImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/human_body"
+            android:scaleType="fitCenter" />
+
+        <View
+            android:id="@+id/headHighlight"
+            android:layout_width="50dp"
+            android:layout_height="42dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="#5533A8FF"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/throatHighlight"
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="58dp"
+            android:background="#5533A8FF"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/chestHighlight"
+            android:layout_width="78dp"
+            android:layout_height="75dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="92dp"
+            android:background="#5533A8FF"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/stomachHighlight"
+            android:layout_width="68dp"
+            android:layout_height="62dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="165dp"
+            android:background="#5533A8FF"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/armsHighlight"
+            android:layout_width="125dp"
+            android:layout_height="130dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="95dp"
+            android:background="#5533A8FF"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/legsHighlight"
+            android:layout_width="75dp"
+            android:layout_height="125dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:background="#5533A8FF"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/wholeHighlight"
+            android:layout_width="110dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:background="#5533A8FF"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/headBtn"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:text="🧠 Head"
+        android:textColor="#001F3F"
+        android:textStyle="bold"
+        android:background="@drawable/body_part_card"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"
+        android:layout_alignTop="@id/bodyFrame"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/throatBtn"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:text="🗣 Throat"
+        android:textColor="#001F3F"
+        android:textStyle="bold"
+        android:background="@drawable/body_part_card"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"
+        android:layout_below="@id/headBtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/chestBtn"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:text="❤ Chest"
+        android:textColor="#001F3F"
+        android:textStyle="bold"
+        android:background="@drawable/body_part_card"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"
+        android:layout_below="@id/throatBtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/stomachBtn"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:text="◎ Stomach"
+        android:textColor="#001F3F"
+        android:textStyle="bold"
+        android:background="@drawable/body_part_card"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"
+        android:layout_below="@id/chestBtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/armsBtn"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:text="💪 Arms"
+        android:textColor="#001F3F"
+        android:textStyle="bold"
+        android:background="@drawable/body_part_card"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"
+        android:layout_alignTop="@id/bodyFrame"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp" />
+
+    <Button
+        android:id="@+id/legsBtn"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:text="🦵 Legs"
+        android:textColor="#001F3F"
+        android:textStyle="bold"
+        android:background="@drawable/body_part_card"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"
+        android:layout_below="@id/armsBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:text="🦴 Back"
+        android:textColor="#001F3F"
+        android:textStyle="bold"
+        android:background="@drawable/body_part_card"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"
+        android:layout_below="@id/legsBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/wholeBodyBtn"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:text="🧍 Whole"
+        android:textColor="#001F3F"
+        android:textStyle="bold"
+        android:background="@drawable/body_part_card"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"
+        android:layout_below="@id/backBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/startQuestions"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:text="START QUESTIONS →"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#5F91BA"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bodyFrame"
+        android:layout_marginTop="18dp" />
+
+</RelativeLayout>

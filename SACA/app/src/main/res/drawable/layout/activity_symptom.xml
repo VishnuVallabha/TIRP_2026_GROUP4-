@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Back -->
+        <TextView
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:textColor="#5B7BAA"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="16dp" />
+
+        <!-- Title row -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE YOUR SYMPTOM"
+            android:textColor="#001F3F"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+        <TextView
+            android:id="@+id/bodyPartText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap the symptom that matches how you feel"
+            android:textColor="#6C8DB5"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginTop="4dp" />
+
+        <!-- Blue info bar matching desktop -->
+        <TextView
+            android:id="@+id/infoBar"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="📷  Tap the symptom that matches how you feel  ·  English / Yolŋu Matha"
+            android:textColor="#607B96"
+            android:textSize="11sp"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:background="#EEF1F8"
+            android:layout_marginTop="10dp" />
+
+        <!-- 6-symptom grid — 2 cols × 3 rows, each card has English + Yolngu -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="12dp"
+            android:layout_marginTop="4dp">
+
+            <!-- S01 Fever / Märr -->
+            <LinearLayout android:id="@+id/cardFever"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_red"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🌡" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Fever"
+                    android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Märr"
+                    android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- S02 Headache / Ŋuthu·ŋuthu -->
+            <LinearLayout android:id="@+id/cardHeadache"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_brown"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🧠" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Headache"
+                    android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Ŋuthu·ŋuthu"
+                    android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- S03 Chest Pain / Buku·djarrka -->
+            <LinearLayout android:id="@+id/cardChest"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_red"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="❤" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Chest Pain"
+                    android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Buku·djarrka"
+                    android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- S05 Stomach Pain / Wäŋa·wäŋa -->
+            <LinearLayout android:id="@+id/cardStomach"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_gold"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🤢" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Stomach Pain"
+                    android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Wäŋa·wäŋa"
+                    android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- S12 Sore Throat / Dhäwu -->
+            <LinearLayout android:id="@+id/cardThroat"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_orange"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🗣" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Sore Throat"
+                    android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Dhäwu"
+                    android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- S11 Back Pain / Gälk -->
+            <LinearLayout android:id="@+id/cardBack"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_tan"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🦴" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Back Pain"
+                    android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Gälk"
+                    android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+        </GridLayout>
+
+        <!-- Show more symptoms button -->
+        <TextView
+            android:id="@+id/showMoreBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▼  Show all 12 symptoms"
+            android:textColor="#1685D9"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:paddingBottom="12dp" />
+
+        <!-- Extra symptoms (hidden until Show more tapped) -->
+        <GridLayout
+            android:id="@+id/extraSymptomsGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:visibility="gone">
+
+            <!-- S04 Cough / Guku -->
+            <LinearLayout android:id="@+id/cardCough"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_blue"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="😷" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Cough" android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Guku" android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- S06 Hard to Breathe / Ŋunha -->
+            <LinearLayout android:id="@+id/cardBreath"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_blue"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="💨" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Hard to Breathe" android:textSize="15sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Ŋunha" android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- S07 Feeling Dizzy / Marrtji -->
+            <LinearLayout android:id="@+id/cardDizzy"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_tan"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="😵" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Feeling Dizzy" android:textSize="15sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Marrtji" android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- S08 Very Tired / Djäka -->
+            <LinearLayout android:id="@+id/cardTired"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_tan"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="😴" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Very Tired" android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Djäka" android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- S09 Vomiting / Bukmak -->
+            <LinearLayout android:id="@+id/cardVomiting"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_red"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🤮" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Vomiting" android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Bukmak" android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- S10 Skin Rash / Ŋuli·ŋuli -->
+            <LinearLayout android:id="@+id/cardRash"
+                android:layout_width="0dp" android:layout_height="130dp"
+                android:layout_columnWeight="1" android:layout_margin="6dp"
+                android:background="@drawable/symptom_card_gold"
+                android:orientation="vertical" android:gravity="center"
+                android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🔴" android:textSize="32sp" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Skin Rash" android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="#001F3F" android:gravity="center"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Ŋuli·ŋuli" android:textSize="12sp" android:textStyle="italic"
+                    android:textColor="#6C8DB5" android:gravity="center"/>
+            </LinearLayout>
+
+        </GridLayout>
+
+        <!-- Start questions button -->
+        <Button
+            android:id="@+id/startQuestionsButton"
+            android:layout_width="280dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="SELECT THIS SYMPTOM  →"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="#FF6B35" />
+
+    </LinearLayout>
+
+</ScrollView>

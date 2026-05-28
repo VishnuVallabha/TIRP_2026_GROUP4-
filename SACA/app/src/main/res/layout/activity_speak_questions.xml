@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- Back -->
+        <TextView
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:textColor="#4A6FA5"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Progress bar -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="① Body  ② Symptom  ③ Questions  ④ Result"
+            android:textColor="#6C8DB5"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#1685D9"
+            android:layout_marginTop="6dp" />
+
+        <!-- Question counter -->
+        <TextView
+            android:id="@+id/questionCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 1 of 6"
+            android:textColor="#6C8DB5"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="22dp" />
+
+        <!-- Question -->
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When did it start?"
+            android:textColor="#001F3F"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:gravity="center"
+            android:layout_marginTop="14dp" />
+
+        <!-- Sub hint -->
+        <TextView
+            android:id="@+id/questionSub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Say: today / yesterday / a few days / over a week"
+            android:textColor="#6C8DB5"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <!-- Mic button -->
+        <Button
+            android:id="@+id/micButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="🎤"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#1685D9" />
+
+        <!-- Answer display -->
+        <TextView
+            android:id="@+id/answerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎤  Tap the microphone and speak"
+            android:textColor="#6C8DB5"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="18dp"
+            android:padding="12dp"
+            android:background="#FFFFFF" />
+
+        <!-- Status / error -->
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#EF5350"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <!-- Next button -->
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="28dp"
+            android:text="NEXT →"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:backgroundTint="#1685D9" />
+
+    </LinearLayout>
+
+</ScrollView>

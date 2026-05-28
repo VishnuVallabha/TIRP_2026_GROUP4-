@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Aboriginal painting background -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/aboriginal_cover"
+        android:scaleType="centerCrop" />
+
+    <!-- Dark overlay matching desktop gradient -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000" />
+
+    <!-- All content centred -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="60dp"
+        android:paddingBottom="30dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp">
+
+        <!-- ✚ SACA -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✚  SACA"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swin Smart Adaptive Clinical Assistant"
+            android:textSize="16sp"
+            android:textColor="#FFE8CC"
+            android:layout_marginTop="8dp" />
+
+        <!-- Orange divider line -->
+        <View
+            android:layout_width="280dp"
+            android:layout_height="2dp"
+            android:background="#E8A040"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Welcome to SACA -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to SACA"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFF0D8" />
+
+        <!-- Community subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A health triage tool for the Yirrkala Community"
+            android:textSize="13sp"
+            android:textColor="#FFCC99"
+            android:layout_marginTop="8dp" />
+
+        <!-- Location -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arnhem Land  ·  Northern Territory  ·  Australia"
+            android:textSize="11sp"
+            android:textColor="#CC9966"
+            android:layout_marginTop="4dp" />
+
+        <!-- 3 info bullets — exact copy from desktop -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✓  Available in English and Yolŋu Matha"
+            android:textSize="13sp"
+            android:textColor="#FFE0B0"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✓  Quick symptom check in under 2 minutes"
+            android:textSize="13sp"
+            android:textColor="#FFE0B0"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✓  Emergency alerts for serious conditions"
+            android:textSize="13sp"
+            android:textColor="#FFE0B0"
+            android:layout_marginTop="8dp" />
+
+        <!-- GET STARTED button -->
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="280dp"
+            android:layout_height="58dp"
+            android:text="GET STARTED  →"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#FF6B35" />
+
+        <!-- Spacer pushes footer to bottom -->
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Footer — exact text from desktop s0_cover.py -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COS70008  ·  Swinburne University of Technology  ·  Semester 1, 2026"
+            android:textSize="10sp"
+            android:textColor="#AA7744"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>
