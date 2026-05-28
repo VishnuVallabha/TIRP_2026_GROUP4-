@@ -3,10 +3,8 @@ pandas
 scikit-learn
 nltk
 matplotlib
-tkinter
 pillow
 pyttsx3
 speechrecognition
 pyaudio
-pickle5
 customtkinter
