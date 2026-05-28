@@ -8,3 +8,5 @@ pyttsx3
 speechrecognition
 pyaudio
 customtkinter
+xgboost
+rapidfuzz
